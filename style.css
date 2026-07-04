@@ -1,0 +1,121 @@
+/* ==========================
+   GOOGLE FONT
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+    line-height:1.6;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#111827;
+    padding:20px 8%;
+    z-index:1000;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:30px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+    font-weight:500;
+}
+
+.nav-links a:hover{
+    color:#38bdf8;
+}
+
+/* ==========================
+   HOME
+========================== */
+
+.home{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 8%;
+}
+
+.home-content{
+    width:55%;
+}
+
+.home-content h3{
+    font-size:30px;
+}
+
+.home-content h1{
+    font-size:60px;
+    color:#38bdf8;
+    margin:10px 0;
+}
+
+.home-content h2{
+    font-size:34px;
+}
+
+.home-content p{
+    margin:25px 0;
+    color:#d1d5db;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.4s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+    background:#0ea5e9;
+}
+
+.home-image img{
+    width:350px;
+    border-radius:50%;
+    border:6px solid #38bdf8;
+    box-shadow:0 0 30px rgba(56,189,248,.4);
+}
